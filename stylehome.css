@@ -224,7 +224,6 @@ footer p{
 
 .additional-column-activity {
   display: grid;
-  width: 1920 x 1080;
   grid-template-columns: 50% 50%;
   padding: 40px;
   background-color: white;
@@ -239,7 +238,7 @@ footer p{
 
 .additional-column-activity p{
   text-align: left;
-  font-size: 18px;
+  font-size: 15px;
   margin-left: 20px;
 }
 
@@ -258,8 +257,9 @@ footer p{
 
 .two-column-about{
   display: grid;
-  width: 1920 x 1080;
-  grid-template-columns: 60% 40%;
+  margin: 0 auto;
+  width: 1920 x 1080; 
+  grid-template-columns: 50% 50%;
   padding: 40px;
   background-color: white;
 }
@@ -297,13 +297,13 @@ footer p{
 }
 
 .about-text h1 {
-  font-size: 50px;
+  font-size: 40px;
   text-align: left;
   letter-spacing: 1px;
 }
 
 .about-text p {
-  font-size: 20px;
+  font-size: 15px;
   text-align: left;
   margin-right: 45px;
 
